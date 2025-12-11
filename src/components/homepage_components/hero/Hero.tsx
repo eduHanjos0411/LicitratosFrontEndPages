@@ -12,7 +12,7 @@ export function Hero() {
             Somos a Empresa Júnior de Licitações e Contratos<br/> do Instituto
             Federal de Brasília
           </h2>
-          <button className="hero-btn">Inove Conosco</button>
+          <button className="hero-btn"><a href="#contato-section">Inove Conosco</a></button>
         </article>
       </section>
     </>

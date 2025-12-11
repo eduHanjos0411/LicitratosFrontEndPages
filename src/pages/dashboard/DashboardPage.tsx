@@ -4,7 +4,7 @@ import "../../components/dashboardpage_components/toptexts/topText.css";
 
 export function DashboardPage() {
   return (
-    <main style={{ display: "flex", flexDirection: "row", width: '100%'}}>
+    <main style={{ display: "flex", flexDirection: "row", width: "100%" }}>
       <aside className="side-menu">
         <button className="toggle-sidebar-icon">
           <img src="./menuIcon.svg" />
@@ -44,14 +44,15 @@ export function DashboardPage() {
             </li>
           </ul>
         </div>
-
         <button className="exit-btn">
-          <img src="exitIcon.svg" />
-          Sair
+          <Link className="link-exit" to="/">
+            <img src="exitIcon.svg" />
+            Sair
+          </Link>
         </button>
       </aside>
 
-      <section style={{width: '80%'}}>
+      <section style={{ width: "80%" }}>
         {/* Aqui será renderizado o conteúdo das subpáginas */}
         <Outlet />
       </section>

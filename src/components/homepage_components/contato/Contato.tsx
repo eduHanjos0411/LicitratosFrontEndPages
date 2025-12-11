@@ -3,7 +3,7 @@ import './contato.css'
 export function Contato() {
   return (
     <>
-      <section className="contato-section">
+      <section id='contato-section' className="contato-section">
         <header className="contato-header">
           <h1 className="contato-titulo">Contato</h1>
           <h2 className="contato-subtitulo">

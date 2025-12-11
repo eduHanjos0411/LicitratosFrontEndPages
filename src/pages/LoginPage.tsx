@@ -1,14 +1,11 @@
+import { Link } from "react-router-dom";
 import "../styles/loginPage.css";
 
-
 export function LoginPage() {
-
-
   return (
     <main className="entire-page">
       <aside className="aside-container">
-
-        <form className="form-container-auth" >
+        <form className="form-container-auth">
           <h1 className="titulo-aside">Login</h1>
 
           <input
@@ -26,10 +23,11 @@ export function LoginPage() {
             id="senha"
             placeholder="Digite sua senha"
           />
-
-          <button type="submit" className="btn-submit-form">
-            Fazer Login
-          </button>
+          <Link to="/dashboard" className="link-login">
+            <button type="submit" className="btn-submit-form">
+              Fazer Login
+            </button>
+          </Link>
         </form>
       </aside>
       <article className="image-container">

@@ -70,6 +70,15 @@
   transition: background 0.25s ease, transform 0.2s ease;
 }
 
+.link-login {
+  margin-left: 20%;
+  text-decoration: none;
+  display: flex;
+  color: white;
+  width: 70%;
+  height: 40px;
+}
+
 .btn-submit-form:hover {
   background: #1f4ecc;
   transform: translateY(-2px);

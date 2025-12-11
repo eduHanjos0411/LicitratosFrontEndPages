@@ -53,6 +53,14 @@
 .link {
   text-decoration: none;
 }
+
+.link-exit {
+  text-decoration: none;
+  color: #ea3323;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
 .action-list-btn {
   width: 100%;
   display: flex;
@@ -73,6 +81,7 @@
 
 .exit-btn {
   background: transparent;
+  
   border: none;
   color: #ea3323;
   font-size: 32px;
@@ -82,6 +91,7 @@
   margin-left: 60px;
   margin-bottom: 30px;
   transition: background 0.25s ease, transform 0.2s ease;
+  text-decoration: none;
 }
 
 .exit-btn:hover {

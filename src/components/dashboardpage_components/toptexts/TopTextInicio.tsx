@@ -3,6 +3,6 @@ import { TopTextModel } from "./TopTextModel";
 
 export function TopTextInicio() {
   return (
-    <TopTextModel titulo="Seja Bem Vindo [nome]" subtitulo="Segue abaixo as últimas notícias"/>
+    <TopTextModel titulo="Seja Bem Vindo Eduardo" subtitulo="Segue abaixo as últimas notícias"/>
   )
 }
