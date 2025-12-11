@@ -1,11 +1,19 @@
+import { useNavigate } from 'react-router-dom';
 import '../styles/cadastroPage.css'
 
 export function CadastroPage() {
+
+    const navigate = useNavigate();
+  
+  async function handleCadastro() {
+    navigate("licitratos/login");
+  }
+
+
   return (
     <>
         <main className="entire-page">
       <aside className="aside-container">
-        <button className="btn-voltar-inicio">Voltar para o Início</button>
 
           
 
@@ -36,13 +44,15 @@ export function CadastroPage() {
                 placeholder="Digite sua senha"
               />
 
-            <button className="btn-submit-form">
+            <button className="btn-submit-form" onClick={
+              handleCadastro
+            }>
               Fazer Cadastro
             </button>
           </form>
-
-          <a className="nova-conta-text">Já tem uma conta? Clique aqui!</a>
+      
       </aside>
+
       <article className="image-container">
         <h1 className="first-text">Vem crescer</h1>
         <h1 className="second-text">Junto com a gente!</h1>
