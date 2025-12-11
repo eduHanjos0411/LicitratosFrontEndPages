@@ -1,0 +1,30 @@
+.equipe-section {
+  height: 800px;
+  background-color: var(--cinza-primario);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header-sections {
+  font-family: var(--fonte-jost);
+  margin-top: 20px;
+}
+
+.equipe-subtitulo {
+    color: var(--cinza-subtitulo);
+  font-weight: var(--peso-subtitulo);
+}
+
+.equipe-header {
+  font-family: var(--fonte-jost);
+  margin-top: 10px;
+}
+
+.equipe-card-container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 120px;
+}
+

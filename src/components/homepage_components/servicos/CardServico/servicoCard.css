@@ -1,0 +1,40 @@
+.serv-card {
+  width: 400px;
+  padding: 32px 24px;
+  background: #fff;
+  border-radius: 20px;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover destacado */
+.serv-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.serv-icon {
+  width: 200px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.serv-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  color: #0a0a0a;
+}
+
+.serv-subtitle {
+  font-size: 18px;
+  margin-top: 8px;
+  color: #6e6e6e;
+}

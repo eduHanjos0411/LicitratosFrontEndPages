@@ -1,0 +1,22 @@
+.toptext-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 150px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2);
+}
+
+.text-div {
+  height: 100%;
+  margin: 20px 0 0 20px;
+  
+}
+
+.toptext-titulo {
+  font-family: var(--fonte-quicksand);
+}
+
+.toptext-subtitulo {
+  font-family: var(--fonte-quicksand);
+}
+

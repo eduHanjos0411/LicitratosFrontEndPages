@@ -1,0 +1,25 @@
+.noticia-section {
+  height: 800px;
+  background-color: var(--cinza-primario);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.noticia-header {
+  font-family: var(--fonte-jost);
+  font-weight: 400;
+}
+
+
+.noticia-subtitulo {
+      color: var(--cinza-subtitulo);
+  font-weight: var(--peso-subtitulo);
+}
+
+.noticia-card-container {
+    display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 120px;
+}

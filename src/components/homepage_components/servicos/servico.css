@@ -1,0 +1,25 @@
+.servico-section {
+  height: 800px;
+  width: 100%;
+  background-color: var(--azul-primario);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.servico-header {
+  color: white;
+  margin-top: 20px;
+}
+
+.servico-subtitulo {
+  font-weight: var(--peso-subtitulo);
+}
+
+.servico-card-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 120px;
+}

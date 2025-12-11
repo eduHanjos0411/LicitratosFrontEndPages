@@ -1,0 +1,80 @@
+.contato-section {
+  height: 800px;
+  background-color: var(--azul-primario);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contato-header {
+    color: white;
+  margin-top: 20px;
+}
+
+.contato-card-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.contato-subtitulo {
+    font-weight: var(--peso-subtitulo);
+}
+
+.form-container {
+  width: 100%;
+  width: 600px;
+  margin: 0 auto;
+  background: var(--cinza-primario);
+  padding: 40px 30px;
+  border-radius: 28px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.form-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-content input,
+.form-content textarea {
+  width: 100%;
+  padding: 14px 18px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  
+  background: white;
+  border-radius: 28px;
+  box-sizing: border-box;
+}
+
+.form-content textarea {
+  height: 130px;
+  resize: none;
+}
+
+.contato-btn {
+  width: 60%;
+  align-self: center;
+
+  padding: 14px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background: #2c64f1;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+
+  transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.contato-btn:hover {
+  background: #1f4ecc;
+  transform: translateY(-2px);
+}
